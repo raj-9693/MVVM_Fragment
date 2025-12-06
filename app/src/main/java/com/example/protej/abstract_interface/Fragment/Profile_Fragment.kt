@@ -79,7 +79,7 @@ class Profile_Fragment : Fragment() {
                         // 🔥 Fragment के TextView में दिखाना
                         binding.result.text = selectedText
 
-                        dialog.dismiss() // BottomSheet बंद
+                        dialog.dismiss()
                     }
                 }
 
