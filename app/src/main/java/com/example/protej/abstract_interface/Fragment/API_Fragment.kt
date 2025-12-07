@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import com.example.protej.abstract_interface.R
 import com.example.protej.abstract_interface.databinding.FragmentAPIBinding
 
@@ -22,6 +23,7 @@ class API_Fragment : Fragment() {
         _binding= FragmentAPIBinding.inflate(inflater,container,false)
 
 
+        Toast.makeText(requireContext(),"HELLO RAJ", Toast.LENGTH_LONG).show()
 
          return binding.root
 
