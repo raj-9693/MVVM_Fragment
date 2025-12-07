@@ -22,7 +22,8 @@ class API_Fragment : Fragment() {
     ): View? {
         _binding= FragmentAPIBinding.inflate(inflater,container,false)
 
-        Toast.makeText(requireContext(),"Tost jay ho", Toast.LENGTH_LONG).show()
+
+        Toast.makeText(requireContext(),"HELLO RAJ", Toast.LENGTH_LONG).show()
 
          return binding.root
 
