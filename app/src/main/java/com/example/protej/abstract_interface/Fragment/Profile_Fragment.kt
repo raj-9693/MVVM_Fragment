@@ -11,7 +11,6 @@ import com.example.protej.abstract_interface.databinding.FragmentProfileBinding
 import com.google.android.material.bottomsheet.BottomSheetDialog
 
 
-
 class Profile_Fragment : Fragment() {
 
     private var _binding: FragmentProfileBinding? = null

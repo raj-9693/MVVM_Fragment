@@ -23,7 +23,7 @@ class API_Fragment : Fragment() {
         _binding= FragmentAPIBinding.inflate(inflater,container,false)
 
 
-        Toast.makeText(requireContext(),"HELLO RAJ", Toast.LENGTH_LONG).show()
+        Toast.makeText(requireContext(),"Sucess", Toast.LENGTH_LONG).show()
 
          return binding.root
 
